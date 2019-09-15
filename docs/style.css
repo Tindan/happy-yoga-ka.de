@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swa');
+body {
+  font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 4em 1em;
+  margin: 0 auto;
+  max-width: 50em;
+  min-height: 15vw;
+}
+
+main section {
+  display: block;
+}
+
+html {
+  display: block;
+}
+
+header,
+footer {
+  background-color: #1B241E;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),url("images/gruenePflanzen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-position: center top;
+  padding: 4vw 20vw;
+}
+
+footer {
+  background-position: center center;
+  padding: 30px 20vw;
+}
+
+footer a {
+  color: white;
+  margin: 1em;
+}
+
+header .logo img {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  max-width: 100%;
+  max-height: auto;
+  /* 258/632*300 = 122 */
+  clip-path: circle(155px at 202px 163px);
+  margin-bottom:-3em;
+}
+
+header .caption {
+  color: white;
+  font-weight: 200;
+  font-size: 2em;
+  padding-top: 0px;
+  display: inline;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.2em;
+}
+
+nav h1 {
+  color: #71438E;
+  font-size: 6em;
+  font-family: 'Amatic SC', cursive;
+  margin: 0.1em 0.2em 0em 0.4em;
+}
+
+nav h1 .dash {
+  color: #e4854d
+}
+
+header .logo a:hover {
+  background: none;
+}
+
+header .logo {
+  margin: 0;
+}
+
+header a:hover {
+  background: #000059;
+  color: white;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+}
+
+a {
+  color: #245900;
+}
