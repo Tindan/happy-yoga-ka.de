@@ -44,7 +44,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: rgb(113,68,140);
   margin: 1em;
 }
 
@@ -78,6 +78,7 @@ h2 {
   padding-top: 1em;
   font-size: 2.5em;
   font-family: 'Amatic SC', cursive;
+  color: rgb(113,68,140);
 }
 
 h1,
@@ -88,5 +89,5 @@ strong {
 }
 
 a {
-  color: #245900;
+  color: rgb(113,68,140);
 }
