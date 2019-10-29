@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swa');
 body {
-  font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+  font-family: "Hind Siliguri", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   color: #555;
   margin: 0;
@@ -25,11 +25,7 @@ html {
 
 header,
 footer {
-  background-color: #1B241E;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ),url("images/gruenePflanzen.jpg");
+  background-color: rgb(214, 223, 206);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: none;
@@ -39,7 +35,7 @@ footer {
 
 header {
   background-position: center top;
-  padding: 1vw 20vw;
+  padding: 3vw 20vw;
 }
 
 footer {
@@ -61,43 +57,16 @@ header .logo img, header h1 img {
   text-align: center;
   max-height: auto;
   height: auto;
-  background-color: white;
   max-width: 100%;
   position: relative;
-}
-
-header h1 {
-  display: inline-block;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
 }
 
 header .logo img {
   width: 260px;
-  border-radius: 50%;
   padding: 5px;
   z-index: 10;
-}
-
-header h1 img {
-  margin-top: -1.3em;
-  width: 280px;
-  border-radius: 15px;
-  padding: 25px;
-}
-
-nav ul > li {
-  display: inline-block;
-  zoom:1;
-  width: 100px;
-  text-align: center;
-  margin: 0em 1em;
-}
-
-nav h1 img {
-  height: 4em;
-}
-
-header .logo a:hover {
-  background: none;
 }
 
 header .logo {
