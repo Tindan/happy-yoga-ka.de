@@ -95,3 +95,10 @@ strong {
 a {
   color: rgb(113,68,140);
 }
+
+.portrait {
+  float:left;
+  margin:0em 2em 1.5em 0;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
+}
