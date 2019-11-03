@@ -102,3 +102,11 @@ a {
   -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
 }
+
+.green {
+  color: rgb(81,111,51);
+}
+
+.orange {
+  color: rgb(230,136,87);
+}
