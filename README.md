@@ -2,7 +2,7 @@
 
 This page is available under:
 
-- [tindan.github.io/happy-yoga-ka.de/](https://tindan.github.io/happy-yoga-ka.de/)
+- [happy-yoga-ka.de/](https://happy-yoga-ka.de/)
 
 ## Development
 
