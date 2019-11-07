@@ -2,7 +2,7 @@
 
 This page is available under:
 
-- [happy-yoga-ka.de/](https://happy-yoga-ka.de/)
+- [www.happy-yoga-ka.de/](https://www.happy-yoga-ka.de/)
 
 ## Development
 
