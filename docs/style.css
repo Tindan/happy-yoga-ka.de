@@ -113,6 +113,12 @@ a {
     filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1));
 }
 
+@media all and (max-width: 840px) {
+    .image-left, .image-right {
+        max-width: 25%;
+    }
+}
+
 
 .green {
     color: rgb(81, 111, 51);
