@@ -27,7 +27,7 @@ html {
 
 header,
 footer {
-    background-color: rgb(240, 205, 107);
+    background-color: rgb(245, 206, 87);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: none;
@@ -47,7 +47,7 @@ footer {
 }
 
 footer a {
-    color: rgb(113, 68, 140);
+    color: rgb(121, 63, 144);
     margin: 0.5em;
 }
 
@@ -96,7 +96,7 @@ strong {
 }
 
 a {
-    color: rgb(113, 68, 140);
+    color: rgb(121, 63, 144);
 }
 
 .image-left {
@@ -121,9 +121,17 @@ a {
 
 
 .green {
-    color: rgb(81, 111, 51);
+    color: rgb(26, 118, 59);
 }
 
 .orange {
-    color: rgb(230, 136, 87);
+    color: rgb(240, 120, 59);
+}
+
+.purple {
+    color: rgb(121, 63, 144);
+}
+
+.yellow {
+    color: rgb(245, 206, 87);
 }
